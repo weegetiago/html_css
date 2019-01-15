@@ -69,3 +69,7 @@ main div {
 aside {
 	text-align: center;
 }
+
+.icones-sociais li { 
+	display: inline-block
+}
