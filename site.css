@@ -12,6 +12,8 @@ h1, h2 {
 
 h2 {
 	font-size: 30px;
+	clear: both;
+	
 }
 
 main h1 {
@@ -20,6 +22,7 @@ main h1 {
 	color: #FFF;
 	padding: 25px;
 	border-bottom: 10px solid black;
+	text-transform: uppercase;
 	}
 
 p {
@@ -72,4 +75,50 @@ aside {
 
 .icones-sociais li { 
 	display: inline-block
+}
+
+.icones-sociais a{
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github{
+	background-image: url(github.png);
+}
+
+.twitter{
+	background-image: url(twitter.png);
+}
+
+.linkedin{
+	background-image: url(linkedin.png);
+}
+
+.fiat{
+	float: right;
+}
+
+.petrobras{
+	float: left;
+}
+
+aside, img{
+	float: right;
+	width: 15%;
+}
+
+aside{
+	clear: right;
+	box-sizing: border-box;
+}
+
+main{
+	float: left;
+	width: 85%;
+}
+
+footer{
+	clear: both;
 }
